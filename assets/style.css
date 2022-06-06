@@ -17,7 +17,7 @@ header {
     header h1 {
         display: inline-block;
         font-size: 60px;
-        background-color: aqua;
+        background-color: turquoise;
         color: rgb(43, 42, 42);
         width: 400px;
         height: 65px;
@@ -26,7 +26,7 @@ header {
 
     header nav {
         float: right;
-        font-size: 30px
+        font-size: 36px
     }
 
     header nav ul {
@@ -42,5 +42,54 @@ header {
 
     header nav ul li a {
         text-decoration: underline;
-        color: aqua;
+        color: turquoise;
     }
+
+.hero {
+    height: 275px;
+    width: 100%;
+    background-image: url(../assets/images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-subtitle h1 {
+    position: absolute;
+    font-size: 36px;
+    left: 1325px;
+    top: 175px;
+    background-color: turquoise;
+    color: rgb(43, 42, 42);
+    padding: 10px;
+}
+
+.content {
+    width: 90%;
+    display: inline-block;
+    margin-left: 200px;
+}
+
+.About-Me {
+    margin: 75px 0px 75px 0px;
+    color: rgb(18, 18, 81);
+}
+
+.About-Me h2 {
+    display: inline-block;
+    width: 15%;
+    font-size: 60px;
+    border-right: solid;
+    border-color: rgb(18, 18, 81);
+    text-align: right;
+    padding-right: 30px;
+}
+
+.About-Me p {
+    display: inline-block;
+    width: 60%;
+    float: right;
+    position: absolute;
+    top: 460px;
+    margin-left: 60px;
+}

@@ -142,6 +142,10 @@ header {
         bottom: 0px;
     }
 
+    .Surf-Report:hover {
+        opacity: 60%;
+    }
+
     .Surf-Report a {
         text-decoration: none;
         color: rgb(43, 42, 42);
@@ -182,6 +186,10 @@ header {
         background-size: cover;
     }
 
+    .LED-Wall:hover {
+        opacity: 60%;
+    }
+
     .LED-Wall a {
         text-decoration: none;
         color: rgb(43, 42, 42);
@@ -217,6 +225,10 @@ header {
         bottom: 5px;
         background-image: url(../assets/images/calculator.jpg);
         background-size: cover;
+    }
+
+    .Calculator:hover {
+        opacity: 60%;
     }
 
     .Calculator a {
@@ -256,6 +268,10 @@ header {
         background-size: cover;
     }
 
+    .Pastel-Puzzles:hover {
+        opacity: 60%;
+    }
+
     .Pastel-Puzzles a {
         text-decoration: none;
         color: rgb(43, 42, 42);
@@ -291,6 +307,10 @@ header {
         bottom: 35px;
         background-image: url(../assets/images/runbuddy.jpg);
         background-size: cover;
+    }
+
+    .Run-Buddy:hover {
+        opacity: 60%;
     }
 
     .Run-Buddy a {

@@ -57,7 +57,7 @@ header {
 .hero-subtitle h1 {
     position: absolute;
     font-size: 36px;
-    left: 1325px;
+    left: 1275px;
     top: 175px;
     background-color: turquoise;
     color: rgb(43, 42, 42);
@@ -108,7 +108,7 @@ header {
         text-align: right;
         padding-right: 5px;
         position: relative;
-        top: 25px;
+        bottom: 50px;
     }
 
     .Work-Links {
@@ -132,9 +132,30 @@ header {
         border: solid;
         border-width: 5px;
         border-color: turquoise;
+        background-image: url(../assets/images/surf.jpg);
+        background-size: cover;
     }
 
     .Surf-Report a {
         text-decoration: none;
-        color: rgb(18, 18, 81);
+        color: rgb(43, 42, 42);
+        position: relative;
+        font-size: 36px;
+        font-weight: bold;
+        background-color: turquoise;
+        right: 30px;
+        top: 300px;
+        padding-left: 40px;
+    }
+
+    .Surf-Report p {
+        color: rgb(43, 42, 42);
+        position: relative;
+        font-size: 18px;
+        font-weight: bold;
+        background-color: turquoise;
+        top: 0px;
+        width: 233px;
+        padding-left: 40px;
+        padding-right: 50px;
     }

@@ -108,7 +108,7 @@ header {
         text-align: right;
         padding-right: 5px;
         position: relative;
-        bottom: 50px;
+        bottom: 40px;
     }
 
     .Work-Links {
@@ -116,7 +116,10 @@ header {
         border-left: solid;
         border-color: rgb(18, 18, 81);
         border-width: 5px;
-        margin-left: 55px;  
+        margin-left: 230px;
+        position: relative;
+        height: 850px;
+        bottom: 100px; 
     }
 
     .Work div {
@@ -134,6 +137,9 @@ header {
         border-color: turquoise;
         background-image: url(../assets/images/surf.jpg);
         background-size: cover;
+        position: relative;
+        left: 0px;
+        bottom: 0px;
     }
 
     .Surf-Report a {
@@ -146,6 +152,7 @@ header {
         right: 30px;
         top: 300px;
         padding-left: 40px;
+        text-align: left;
     }
 
     .Surf-Report p {
@@ -156,6 +163,154 @@ header {
         background-color: turquoise;
         top: 0px;
         width: 233px;
+        padding-left: 40px;
+        padding-right: 50px;
+    }
+
+    .LED-Wall {
+        display: inline-block;
+        position: relative;
+        border: solid;
+        border-width: 5px;
+        border-color: turquoise;
+        width: 490px;
+        height: 210px;
+        left: 125px;
+        bottom: 5px;
+        margin: 20px 25px 25px 0px;
+        background-image: url(../assets/images/LEDWall.jpg);
+        background-size: cover;
+    }
+
+    .LED-Wall a {
+        text-decoration: none;
+        color: rgb(43, 42, 42);
+        position: relative;
+        font-size: 36px;
+        font-weight: bold;
+        background-color: turquoise;
+        padding-left: 40px;
+        top: 110px
+    }
+
+    .LED-Wall p {
+        color: rgb(43, 42, 42);
+        position: relative;
+        font-size: 18px;
+        font-weight: bold;
+        background-color: turquoise;
+        top: 0px;
+        width: 185px;
+        padding-left: 40px;
+        padding-right: 50px;
+    }
+
+    .Calculator {
+        display: inline-block;
+        position: relative;
+        border: solid;
+        border-width: 5px;
+        border-color: turquoise;
+        width: 490px;
+        height: 210px;
+        left: 115px;
+        bottom: 5px;
+        background-image: url(../assets/images/calculator.jpg);
+        background-size: cover;
+    }
+
+    .Calculator a {
+        text-decoration: none;
+        color: rgb(43, 42, 42);
+        position: relative;
+        font-size: 36px;
+        font-weight: bold;
+        background-color: turquoise;
+        padding-left: 40px;
+        top: 110px;
+    }
+
+    .Calculator p {
+        color: rgb(43, 42, 42);
+        position: relative;
+        font-size: 18px;
+        font-weight: bold;
+        background-color: turquoise;
+        width: 210px;
+        padding-left: 30px;
+        padding-right: 50px;
+    }
+
+    .Pastel-Puzzles {
+        display: inline-block;
+        position: relative;
+        border: solid;
+        border-width: 5px;
+        border-color: turquoise;
+        width: 490px;
+        height: 210px;
+        margin: 20px 25px 25px 0px;
+        bottom: 35px;
+        left: 125px;
+        background-image: url(../assets/images/pastel.jpg);
+        background-size: cover;
+    }
+
+    .Pastel-Puzzles a {
+        text-decoration: none;
+        color: rgb(43, 42, 42);
+        position: relative;
+        font-size: 36px;
+        font-weight: bold;
+        background-color: turquoise;
+        padding-left: 40px;
+        top: 110px
+    }
+
+    .Pastel-Puzzles p {
+        color: rgb(43, 42, 42);
+        position: relative;
+        font-size: 18px;
+        font-weight: bold;
+        background-color: turquoise;
+        top: 0px;
+        width: 278px;
+        padding-left: 40px;
+        padding-right: 50px;
+    }
+
+    .Run-Buddy {
+        display: inline-block;
+        position: relative;
+        border: solid;
+        border-width: 5px;
+        border-color: turquoise;
+        width: 490px;
+        height: 210px;
+        left: 115px;
+        bottom: 35px;
+        background-image: url(../assets/images/runbuddy.jpg);
+        background-size: cover;
+    }
+
+    .Run-Buddy a {
+        text-decoration: none;
+        color: rgb(43, 42, 42);
+        position: relative;
+        font-size: 36px;
+        font-weight: bold;
+        background-color: turquoise;
+        padding-left: 40px;
+        top: 110px;
+    }
+
+    .Run-Buddy p {
+        color: rgb(43, 42, 42);
+        position: relative;
+        font-size: 18px;
+        font-weight: bold;
+        background-color: turquoise;
+        width: 219px;
         padding-left: 40px;
         padding-right: 50px;
     }

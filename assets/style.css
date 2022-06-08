@@ -334,3 +334,46 @@ header {
         padding-left: 40px;
         padding-right: 50px;
     }
+
+.Contact-Me {
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+}
+
+    .Contact-Me h2 {
+        color: rgb(18, 18, 81);
+        display: inline-block;
+        font-size: 60px;
+        position: relative;
+        bottom: 80px;
+        right: 158px;
+        width: 20%;
+        text-align: right;
+        border-right: solid;
+        border-width: 5px;
+        padding-right: 65px;
+    }
+
+    .Contact-Me ul {
+        display: inline-block;
+        position: relative;
+        bottom: 125px;
+        right: 30px;
+    }
+
+    .Contact-Me ul li {
+        display: inline-block;
+        padding-right: 125px;
+        font-size: 36px;
+        font-weight: bold;
+        color: rgb(43, 42, 42);
+        text-decoration: underline;
+    }
+
+    .Contact-Me ul li a {
+        display: inline-block;
+        text-decoration: none;
+        color: rgb(43, 42, 42);
+        text-decoration: underline;
+    }

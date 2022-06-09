@@ -397,8 +397,8 @@ header {
         font-size: 24px;
         position: relative;
         text-align: right;
-        bottom: 25px;
-        left: 40px;
+        bottom: 35px;
+        left: -75px;
         float: none;
     }
 
@@ -413,7 +413,7 @@ header {
     .hero-subtitle h1 {
         position: relative;
         font-size: 36px;
-        left: 650px;
+        left: 575px;
         top: 50px;
         background-color: turquoise;
         color: rgb(43, 42, 42);
@@ -424,6 +424,8 @@ header {
     .About-Me {
         color: rgb(18, 18, 81);
         margin: 0px;
+        position: relative;
+        right: 60px;
     }
 
     .About-Me h2 {
@@ -478,7 +480,7 @@ header {
     }
 
     .Surf-Report {
-        width: 890px;
+        width: 750px;
         height: 400px;
         margin-left: 125px;
         border: solid;
@@ -487,7 +489,7 @@ header {
         background-image: url(../assets/images/surf.jpg);
         background-size: cover;
         position: relative;
-        left: 70px;
+        left: 105px;
         bottom: 0px;
         padding: 0px;
     }
@@ -519,14 +521,13 @@ header {
     }
 
     .LED-Wall {
-        display: inline-block;
         position: relative;
         border: solid;
         border-width: 5px;
         border-color: turquoise;
-        width: 435px;
+        width: 360px;
         height: 200px;
-        left: 195px;
+        left: 230px;
         bottom: 5px;
         margin: 20px 25px 25px 0px;
         background-image: url(../assets/images/LEDWall.jpg);
@@ -547,14 +548,13 @@ header {
     }
 
     .Calculator {
-        display: inline-block;
         position: relative;
         border: solid;
         border-width: 5px;
         border-color: turquoise;
-        width: 435px;
+        width: 360px;
         height: 200px;
-        left: 185px;
+        left: 230px;
         bottom: 5px;
         background-image: url(../assets/images/calculator.jpg);
         background-size: cover;
@@ -573,16 +573,15 @@ header {
     }
 
     .Pastel-Puzzles {
-        display: inline-block;
         position: relative;
         border: solid;
         border-width: 5px;
         border-color: turquoise;
-        width: 435px;
+        width: 360px;
         height: 200px;
         margin: 20px 25px 25px 0px;
         bottom: 35px;
-        left: 195px;
+        left: 230px;
         background-image: url(../assets/images/pastel.jpg);
         background-size: cover;
     }
@@ -601,14 +600,13 @@ header {
     }
 
     .Run-Buddy {
-        display: inline-block;
         position: relative;
         border: solid;
         border-width: 5px;
         border-color: turquoise;
-        width: 435px;
+        width: 360px;
         height: 200px;
-        left: 185px;
+        left: 230px;
         bottom: 35px;
         background-image: url(../assets/images/runbuddy.jpg);
         background-size: cover;
@@ -639,7 +637,7 @@ header {
         font-size: 60px;
         position: relative;
         bottom: 80px;
-        right: 0px;
+        right: 100px;
         width: 45%;
         text-align: right;
         border-right: 0;
@@ -651,12 +649,12 @@ header {
         display: inline-block;
         position: relative;
         bottom: 70px;
-        right: 180px;
+        right: 230px;
     }
 
     .Contact-Me ul li {
         display: inline-block;
-        padding-right: 40px;
+        padding-right: 20px;
         font-size: 36px;
         font-weight: bold;
         color: rgb(43, 42, 42);
@@ -675,5 +673,316 @@ header {
         text-decoration: none;
         color: rgb(43, 42, 42);
         text-decoration: underline;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    header {
+        width: 100%;
+        padding: 0px;
+    }
+
+    header h1 {
+        width: 40%;
+        font-size: 36px;
+        height: 50%;
+        text-align: right;
+        top: 15px;
+        position: relative;
+        padding: 0px;
+    }
+
+    header nav {
+        font-size: 12px;
+        position: relative;
+        text-align: right;
+        bottom: 30px;
+        left: 130px;
+        float: none;
+    }
+
+    .hero {
+        width: 100%;
+        height: 100px;
+        background-image: url(../assets/images/hero.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .hero-subtitle h1 {
+        position: relative;
+        font-size: 24px;
+        left: 265px;
+        top: 20px;
+        background-color: turquoise;
+        color: rgb(43, 42, 42);
+        width: 30%;
+        padding: 0px;
+        text-align: center;
+    }
+
+    .About-Me h2 {
+        font-size: 36px;
+        position: relative;
+        width: 70%;
+        left: -60px;
+        padding: 0px;
+        text-align: center;
+        display: flex;
+    }
+
+    .About-Me p {
+        display: inline-block;
+        width: 100%;
+        position: relative;
+        text-align: center;
+        float: none;
+        margin: 0px;
+        border: none;
+        padding: 0px;
+        top: 0px;
+        right: 175px;
+        font-size: 12px;
+    }
+
+    .Work h2 {
+        display: inline-block;
+        width: 10%;
+        font-size: 36px;
+        position: absolute;
+        bottom: 35px;
+        left: 330px;
+        text-align: center;
+        padding: 0px;
+    }
+
+    .Surf-Report {
+        width: 350px;
+        height: 200px;
+        margin-left: 125px;
+        border: solid;
+        border-width: 5px;
+        border-color: turquoise;
+        background-image: url(../assets/images/surf.jpg);
+        background-size: cover;
+        position: relative;
+        left: 70px;
+        bottom: 35px;
+        padding: 0px;
+    }
+
+    .Surf-Report a {
+        text-decoration: none;
+        color: rgb(43, 42, 42);
+        position: relative;
+        font-size: 24px;
+        font-weight: bold;
+        background-color: turquoise;
+        right: 0px;
+        top: 125px;
+        padding-left: 30px;
+        text-align: left;
+    }
+
+    .Surf-Report p {
+        color: rgb(43, 42, 42);
+        position: relative;
+        font-size: 12px;
+        font-weight: bold;
+        background-color: turquoise;
+        top: 0px;
+        width: 159px;
+        padding-left: 40px;
+        padding-right: 0px;
+        text-align: right;
+    }
+
+    .LED-Wall {
+        position: relative;
+        border: solid;
+        border-width: 5px;
+        border-color: turquoise;
+        width: 170px;
+        height: 150px;
+        left: 195px;
+        bottom: 50px;
+        margin: 20px 25px 25px 0px;
+        background-image: url(../assets/images/LEDWall.jpg);
+        background-size: cover;
+    }
+
+    .LED-Wall a {
+        text-decoration: none;
+        color: rgb(43, 42, 42);
+        position: relative;
+        font-size: 24px;
+        font-weight: bold;
+        background-color: turquoise;
+        padding-left: 10px;
+        top: 75px;
+    }
+
+    .LED-Wall p {
+        color: rgb(43, 42, 42);
+        position: relative;
+        font-size: 12px;
+        font-weight: bold;
+        background-color: turquoise;
+        top: 0px;
+        width: 107px;
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: right;
+    }
+
+    .Calculator {
+        position: relative;
+        border: solid;
+        border-width: 5px;
+        border-color: turquoise;
+        width: 170px;
+        height: 150px;
+        left: 175px;
+        bottom: 50px;
+        background-image: url(../assets/images/calculator.jpg);
+        background-size: cover;
+    }
+
+    .Calculator a {
+        text-decoration: none;
+        color: rgb(43, 42, 42);
+        position: relative;
+        font-size: 24px;
+        font-weight: bold;
+        background-color: turquoise;
+        padding-left: 10px;
+        top: 75px;
+    }
+
+    .Calculator p {
+        color: rgb(43, 42, 42);
+        position: relative;
+        font-size: 12px;
+        font-weight: bold;
+        background-color: turquoise;
+        width: 124px;
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: right;
+    }
+
+    .Pastel-Puzzles {
+        position: relative;
+        border: solid;
+        border-width: 5px;
+        border-color: turquoise;
+        width: 170px;
+        height: 150px;
+        margin: 20px 25px 25px 0px;
+        bottom: 90px;
+        left: 195px;
+        background-image: url(../assets/images/pastel.jpg);
+        background-size: cover;
+    }
+
+    .Pastel-Puzzles a {
+        text-decoration: none;
+        color: rgb(43, 42, 42);
+        position: relative;
+        font-size: 24px;
+        width: 100px;
+        font-weight: bold;
+        background-color: turquoise;
+        padding-left: 0px;
+        top: 75px;
+    }
+
+    .Pastel-Puzzles p {
+        color: rgb(43, 42, 42);
+        position: relative;
+        font-size: 12px;
+        font-weight: bold;
+        background-color: turquoise;
+        top: 0px;
+        width: 159px;
+        padding-left: 40px;
+        padding-right: 0px;
+        text-align: right;
+    }
+
+    .Run-Buddy {
+        position: relative;
+        border: solid;
+        border-width: 5px;
+        border-color: turquoise;
+        width: 170px;
+        height: 150px;
+        left: 175px;
+        bottom: 90px;
+        background-image: url(../assets/images/runbuddy.jpg);
+        background-size: cover;
+    }
+
+    .Run-Buddy a {
+        text-decoration: none;
+        color: rgb(43, 42, 42);
+        position: relative;
+        font-size: 24px;
+        font-weight: bold;
+        background-color: turquoise;
+        padding-left: 10px;
+        top: 75px;
+    }
+
+    .Run-Buddy p {
+        color: rgb(43, 42, 42);
+        position: relative;
+        font-size: 12px;
+        font-weight: bold;
+        background-color: turquoise;
+        width: 130px;
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: right;
+    }
+
+    .Contact-Me {
+        position: relative;
+        top: 625px;
+        left: -135px;
+        bottom: 0px;
+    }
+
+    .Contact-Me h2 {
+    color: rgb(18, 18, 81);
+    display: inline-block;
+    font-size: 36px;
+    position: relative;
+    bottom: 70px;
+    left: -100px;
+    width: 90%;
+    text-align: right;
+    border-right: 0;
+    border-width: 0;
+    padding-right: 0;
+    }
+
+    .Contact-Me ul {
+        display: flex;
+        position: relative;
+        bottom: 70px;
+        right: -15px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .Contact-Me ul li {
+        display: inline-block;
+        font-size: 12px;
+        font-weight: bold;
+        color: rgb(43, 42, 42);
+        text-decoration: underline;
+        position: relative;
+        padding-right: 20px;
     }
 }
